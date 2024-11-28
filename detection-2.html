@@ -19,10 +19,13 @@
         body {
             background-color: hsl(170, 100%, 95%);
             font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
         .navbar {
-            background-color: #75DDD0; 
+            background-color: #75DDD0;
             padding: 16px 24px;
             display: flex;
             justify-content: space-between;
@@ -35,7 +38,7 @@
         }
 
         .navbar-expanded {
-            padding: 30px 60px; 
+            padding: 30px 60px;
         }
 
         .navbar-container {
@@ -86,49 +89,30 @@
 
         .main-container {
             display: flex;
-            justify-content: flex-start;
-            align-items: center;
             margin-top: 40px;
-            width: 80%;
-            margin-left: 50px;
+            width: 60%;
+            margin-top: 40px !important;
+            margin-left: auto;
+            margin-right: auto;
             padding-bottom: 60px;
+            flex-direction: column;
+            align-items: center;
         }
 
         .main-box {
             background-color: #B2F5EA;
-            padding: 32px ;
+            padding: 32px;
             border-radius: 12px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
             display: flex;
             width: 100%;
-            position: relative;
+            flex-direction: column;
+            align-items: center;
         }
 
         .text-content {
-            flex: 2;
             color: #2C7A7B;
-            margin-right: 30px;
-        }
-
-        .shield-image {
-            position: absolute;
-            right: -140px;
-            bottom: -60px;
-            width: 200px;
-            height: 200px;
-            transform: rotate(0deg) scale(1.1);
-            z-index: 10;
-        }
-
-        .shield-image img {
-            max-width: 160px;
-            height: auto;
-        }
-
-        .text-content h2 {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 16px;
+            text-align: center;
         }
 
         .text-content h1 {
@@ -140,96 +124,127 @@
         .text-content p {
             color: #4A5568;
             line-height: 1.6;
-        }
-
-        .section {
-            padding: 80px 0;
-            background-color: #ffffff;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 32px;
-            color: #2C7A7B;
-            margin-bottom: 40px;
-        }
-
-        .card-container {
-            display: flex;
-            justify-content: center;
-            gap: 24px;
-            flex-wrap: wrap;
-        }
-
-        .card {
-            background-color: #B2F5EA;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            width: 300px;
-            padding: 24px;
-            text-align: center;
-            transition: transform 0.3s;
-        }
-
-        .card i {
-            font-size: 50px;
-            color: #2C7A7B;
-            margin-bottom: 20px;
-        }
-
-        .card h3 {
-            font-size: 24px;
-            color: #2C7A7B;
-            margin-bottom: 16px;
-        }
-
-        .news-section h3{
-            font-size: 24px;
-            color: #2C7A7B;
-            margin-bottom: 16px;
-
-        }
-
-        .news-section p{
-            font-size: 16px;
-            color: #4A5568;
-            margin-bottom: 16px;
-        }
-
-        .card p {
-            font-size: 16px;
-            color: #4A5568;
-            margin-bottom: 16px;
-        }
-
-        .card:hover {
-            transform: translateY(-10px);
-        }
-
-        .news-section {
-            padding: 60px 0;
-            background-color: #F1F5F9;
-        }
-
-        .news-card {
-            background-color: #ffffff;
-            border-radius: 12px;
-            padding: 24px;
-            width: 100%;
             margin-bottom: 24px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        .news-card h4 {
-            font-size: 24px;
+        form {
+            display: flex;
+            justify-content: center; 
+            align-items: center;  
+            width: 100%; 
+        }
+
+        .upload-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #6fe3c1;
+            border: none;
+            border-radius: 25px;
+            padding: 10px 20px;
+            cursor: pointer;
+            width: 300px;
+        }
+
+        .upload-input {
+            display: none;
+        }
+
+        .upload-btn i {
+            margin-right: 10px;
+        }
+
+        .upload-btn:hover {
+            background-color: #5bc0a8;
+        }
+
+        .upload-btn span {
+            flex-grow: 1;
+            text-align: left;
+        }
+
+        .upload-btn i:last-child {
+            margin-left: auto;
+        }
+
+        .main-container {
+            display: flex;
+            margin-top: 40px;
+            width: 60%;
+            margin-top: 40px !important;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 60px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main-box {
+            background-color: #B2F5EA;
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .text-content {
             color: #2C7A7B;
-            margin-bottom: 16px;
+            text-align: center;
         }
 
-        .news-card p {
-            font-size: 16px;
+        .text-content h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 24px;
+        }
+
+        .text-content p {
             color: #4A5568;
             line-height: 1.6;
+            margin-bottom: 24px;
+        }
+
+        form {
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            width: 100%;
+        }
+
+        .upload-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #6fe3c1;
+            border: none;
+            border-radius: 25px;
+            padding: 10px 20px;
+            cursor: pointer;
+            width: 300px;
+        }
+
+        .upload-input {
+            display: none; 
+        }
+
+        .upload-btn i {
+            margin-right: 10px;
+        }
+
+        .upload-btn:hover {
+            background-color: #5bc0a8;
+        }
+
+        .upload-btn span {
+            flex-grow: 1;
+            text-align: left;
+        }
+
+        .upload-btn i:last-child {
+            margin-left: auto;
         }
 
         .navbar-toggle {
@@ -260,7 +275,11 @@
 
         .navbar-links.active {
             display: flex;
-            flex-direction: column; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 0;
+            z-index: 1
         }
 
         .navbar-toggle.active div:nth-child(1) {
@@ -274,15 +293,16 @@
         .navbar-toggle.active div:nth-child(3) {
             transform: translateY(-7px) rotate(-45deg);
         }
-        
+
         footer {
             background-color: #75DDD0;
             padding: 40px 0;
             color: #fff;
             text-align: center;
             font-size: 14px;
+            margin-top: auto;
         }
-    
+
         .footer-container {
             display: flex;
             justify-content: space-between;
@@ -291,44 +311,78 @@
             margin: 0 auto;
             padding: 0 20px;
         }
-    
+
         .footer-logo img {
             height: 50px;
         }
-    
+
         .footer-links ul {
             list-style: none;
             display: flex;
             gap: 30px;
         }
-    
+
         .footer-links li a {
             color: #fff;
             text-decoration: none;
             font-weight: 500;
         }
-    
+
         .footer-links li a:hover {
             text-decoration: underline;
         }
-    
+
         .footer-social a {
             color: #fff;
             margin: 0 10px;
             font-size: 20px;
             transition: color 0.3s;
         }
-    
+
         .footer-social a:hover {
             color: #2C7A7B;
         }
-    
+
         .footer-bottom {
             margin-top: 30px;
             font-size: 12px;
         }
 
-        /* Media Queries  */
+        .screenshot {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+
+        .button-container button {
+            background-color: #2C7A7B;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-right: 10px;
+            
+        }
+        .btn-custom  {
+            background-color: #2C7A7B;  
+            color: #FFFFFF;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn-custom:hover {
+            background-color: #a0c4c4;
+        }
+
+        /* Media Queries */
         @media (max-width: 768px) {
             .navbar-links {
                 display: none;
@@ -365,8 +419,11 @@
             }
 
             .main-container {
-                width: 100%;
-                margin-left: 0;
+                background-color: white;
+                border-radius: 10px;
+                padding: 20px;
+                margin-top: 50px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 text-align: center;
             }
 
@@ -405,21 +462,22 @@
         <div class="navbar-container">
             <div class="logo">
                 <a href="#" class="logo-link">
-                    <img src="assets/image/logo.png" alt="Logo" height="50" >
+                    <img src="assets/image/logo.png" alt="Logo" height="50">
                 </a>
             </div>
             <ul class="navbar-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="detection-1.html">Detection</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="detection-1.html" class="active">Detection</a></li>
                 <li><a href="chatbot.html" >Chatbot</a></li>
                 <li><a href="about.html">About us</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li>
                     <div class="user-image">
                         <a href="/">
-                            <img src="assets/image/user.png" alt="User Icon" class="rounded-full" width="40">
+                            <img src="assets/image/user.png" alt="User" class="rounded-circle" height="40">
                         </a>
-                    </div></li>
+                    </div>
+                </li>
             </ul>
             <div class="navbar-toggle">
                 <div></div>
@@ -429,72 +487,17 @@
         </div>
     </nav>
 
-    <!-- Main Section -->   
-    <section class="main-container">
-        <div class="main-box">
-            <div class="text-content">
-                <h2>Halo, Selamat Datang</h2>
-                <h1>Jidan</h1>
-                <p> Tahukah anda bahwa Kanker melanoma adalah jenis kanker kulit yang agresif 
-                    dan berasal dari sel pigmen kulit, melanosit. Deteksi dini sangat penting, 
-                    jadi periksalah kulit Anda secara rutin dan waspadai perubahan pada tahi lalat 
-                    atau bintik-bintik baru—kesadaran bisa menyelamatkan nyawa.</p>
-            </div>
-            <div class="shield-image">
-                <img src="assets/image/perisai.png" alt="Shield">
-            </div>
+    <!-- Main Content -->
+    <div class="main-container">
+        <div style="width: 100%; height: 450px; background-color: #D9EAE8; border-radius: 10px; display: flex; justify-content: center; align-items: center; border: 2px dashed #2C7A7B;">
+            <p style="color: #2C7A7B; font-size: 16px; margin: 0;">Hasil gambar</p>
         </div>
-    </section>
-
-    <!-- Section Cards -->
-    <section class="section">
-        <h2 class="section-title">Layanan Kami</h2>
-        <div class="card-container">
-            <div class="card">
-                <i class="fas fa-heartbeat"></i>
-                <h3>Deteksi Kanker Melanoma</h3>
-                <p>Gunakan alat canggih untuk mendeteksi tanda-tanda kanker kulit secara dini.</p>
-            </div>
-            <div class="card">
-                <i class="fas fa-laptop-medical"></i>
-                <h3>Konsultasi</h3>
-                <p>Berbicara langsung dengan ahli melalui panggilan video.</p>
-            </div>
-            <div class="card">
-                <i class="fas fa-comments"></i>
-                <h3>Chatbot Kesehatan</h3>
-                <p>Gunakan chatbot kami untuk mendapatkan informasi medis dengan cepat dan mudah.</p>
-            </div>
+        <div class="button-container">
+            <button class="btn-custom">Scan</button>
+            <button class="btn-custom">Delete</button>
         </div>
-    </section>
-
-
-    <!-- News Section -->
-    <section class="news-section py-5">
-        <div class="container">
-            <div class="row mb-4">
-                <div class="col-md-4 mb-3">
-                    <img src="https://nexgoal.com/wp-content/uploads/2021/08/Top-Trends-Medical-Device-1920x1000-1-1536x800.jpg" alt="News Image" class="img-fluid rounded">
-                </div>
-                <div class="col-md-8">
-                    <h3>Latest News</h3>
-                    <p>Our latest breakthrough in technology for the medical industry.</p>
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-4 mb-3">
-                    <img src="https://teguar.com/wp-content/w3-webp/uploads/2023/07/iStock-1396801868-1024x683.jpgw3.webp" alt="News Image" class="img-fluid rounded">
-                </div>
-                <div class="col-md-8">
-                    <h3>Latest News</h3>
-                    <p>Our latest breakthrough in technology for the medical industry.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
     
-
     <footer>
         <div class="container">
         <div class="footer-container row mx-0">
@@ -517,26 +520,16 @@
             <p>&copy; 2024 Melanoma Scan. All rights reserved.</p>
         </div></div>
     </footer>
-    
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-        const toggle = document.querySelector('.navbar-toggle');
-        const navbarLinks = document.querySelector('.navbar-links');
-        
-        toggle.addEventListener('click', () => {
-            navbarLinks.classList.toggle('active');
-            toggle.classList.toggle('active');
-        });
 
+    <script>
+        const navbarToggle = document.querySelector('.navbar-toggle');
+        const navbarLinks = document.querySelector('.navbar-links');
     
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
+        navbarToggle.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active');
+            navbarToggle.classList.toggle('active');
         });
     </script>
+    
 </body>
 </html>
