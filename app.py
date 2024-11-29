@@ -18,10 +18,9 @@ def serve_static(filename):
 def index():
     return render_template('index.html')
 
-@app.route('/chatbot.html')
+@app.route('/chatbot')
 def chatbot():
     return render_template('chatbot.html')
-
 
 @app.route("/get", methods=["GET", "POST"])
 def chat():
