@@ -22,12 +22,11 @@ def index():
 def chatbot():
     return render_template('chatbot.html')
 
-@app.route("/get", methods=["GET", "POST"])
+@app.route("/get", methods=["POST"])
 def chat():
-    msg = request.form["msg"]
-    input = msg
-    return get_Chat_response(input)
-
+    msg = request.json.get("msg")  # Ambil pesan dari frontend
+    response = get_Chat_response(msg)  # Dapatkan respons dari model
+    return jsonify({"response": response})  # Kembalikan respons dalam JSON
 
 def get_Chat_response(text):
 
