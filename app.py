@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_from_directory
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
@@ -9,6 +9,10 @@ model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
 
 
 app = Flask(__name__)
+
+@app.route('/static/images')
+def serve_static(filename):
+    return send_from_directory('static', filename)
 
 @app.route("/")
 def index():
