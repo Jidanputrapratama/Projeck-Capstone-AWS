@@ -348,7 +348,7 @@
       <div class="navbar-container">
         <div class="logo">
           <a href="#" class="logo-link">
-            <img src="assets/image/logo.png" alt="Logo" height="50" />
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" height="50" />
           </a>
         </div>
         <ul class="navbar-links">
@@ -361,7 +361,7 @@
             <div class="user-image">
               <a href="/">
                 <img
-                  src="assets/image/user.png"
+                  src="{{ url_for('static', filename='images/user.png') }}"
                   alt="User Icon"
                   class="rounded-full"
                   width="40"
