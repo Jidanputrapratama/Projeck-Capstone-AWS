@@ -1,7 +1,11 @@
 {
-    "Pengertian": "Kanker kulit melanoma adalah kanker kulit yang berkembang dari melanosit. Selain di kulit, melanoma juga dapat muncul di mata. Bahkan, pada kasus yang jarang terjadi, melanoma bisa tumbuh di dalam hidung atau tenggorokan Melanosit adalah sel pigmen kulit yang berfungsi menghasilkan melanin, yaitu pigmen pemberi warna pada kulit manusia. Melanin berfungsi menyerap sinar ultraviolet dan melindungi kulit dari kerusakan. Kanker kulit melanoma, gejala, penyebab, cara mencegah, cara mengobati, alodokterMelanoma adalah jenis kanker kulit yang jarang terjadi, tetapi sangat berbahaya. Kanker ini dimulai dari permukaan kulit dan dapat menyebar ke organ lain di dalam tubuh jika terlambat ditangani.",
-    "Melanoma": "Kanker kulit melanoma adalah kanker kulit yang berkembang dari melanosit. Selain di kulit, melanoma juga dapat muncul di mata. Bahkan, pada kasus yang jarang terjadi, melanoma bisa tumbuh di dalam hidung atau tenggorokan Melanosit adalah sel pigmen kulit yang berfungsi menghasilkan melanin, yaitu pigmen pemberi warna pada kulit manusia. Melanin berfungsi menyerap sinar ultraviolet dan melindungi kulit dari kerusakan. Kanker kulit melanoma, gejala, penyebab, cara mencegah, cara mengobati, alodokterMelanoma adalah jenis kanker kulit yang jarang terjadi, tetapi sangat berbahaya. Kanker ini dimulai dari permukaan kulit dan dapat menyebar ke organ lain di dalam tubuh jika terlambat ditangani.",
+    "halo": "Hai! Ada yang bisa saya bantu?",
+    "bantu": "Saya dapat membantu Anda dalam memberikan informasi seputar Kanker Melanoma.",
+    "Pengertian": "Kanker kulit melanoma adalah kanker kulit yang berkembang dari melanosit. Selain di kulit, melanoma juga dapat muncul di mata. Bahkan, pada kasus yang jarang terjadi, melanoma bisa tumbuh di dalam hidung atau tenggorokan Melanosit adalah sel pigmen kulit yang berfungsi menghasilkan melanin, yaitu pigmen pemberi warna pada kulit manusia. Melanin berfungsi menyerap sinar ultraviolet dan melindungi kulit dari kerusakan. Kanker kulit melanoma, gejala, penyebab, cara mencegah, cara mengobati, Melanoma adalah jenis kanker kulit yang jarang terjadi, tetapi sangat berbahaya. Kanker ini dimulai dari permukaan kulit dan dapat menyebar ke organ lain di dalam tubuh jika terlambat ditangani.",
+    "Pengertiannya": "Kanker kulit melanoma adalah kanker kulit yang berkembang dari melanosit. Selain di kulit, melanoma juga dapat muncul di mata. Bahkan, pada kasus yang jarang terjadi, melanoma bisa tumbuh di dalam hidung atau tenggorokan Melanosit adalah sel pigmen kulit yang berfungsi menghasilkan melanin, yaitu pigmen pemberi warna pada kulit manusia. Melanin berfungsi menyerap sinar ultraviolet dan melindungi kulit dari kerusakan. Kanker kulit melanoma, gejala, penyebab, cara mencegah, cara mengobati, Melanoma adalah jenis kanker kulit yang jarang terjadi, tetapi sangat berbahaya. Kanker ini dimulai dari permukaan kulit dan dapat menyebar ke organ lain di dalam tubuh jika terlambat ditangani.",
+    "Melanoma": "Kanker kulit melanoma adalah kanker kulit yang berkembang dari melanosit. Selain di kulit, melanoma juga dapat muncul di mata. Bahkan, pada kasus yang jarang terjadi, melanoma bisa tumbuh di dalam hidung atau tenggorokan Melanosit adalah sel pigmen kulit yang berfungsi menghasilkan melanin, yaitu pigmen pemberi warna pada kulit manusia. Melanin berfungsi menyerap sinar ultraviolet dan melindungi kulit dari kerusakan. Kanker kulit melanoma, gejala, penyebab, cara mencegah, cara mengobati, Melanoma adalah jenis kanker kulit yang jarang terjadi, tetapi sangat berbahaya. Kanker ini dimulai dari permukaan kulit dan dapat menyebar ke organ lain di dalam tubuh jika terlambat ditangani.",
     "Penyebab": "Kanker kulit melanoma terjadi ketika sel-sel yang memproduksi melanin (melanosit) mengalami mutasi (perubahan). Akibatnya, sel-sel tersebut tumbuh tidak normal dan berkembang menjadi kanker. Belum diketahui apa yang menyebabkan melanosit bermutasi dan berkembang menjadi kanker. Hanya saja, para ahli meyakini kanker kulit melanoma terjadi akibat paparan sinar ultraviolet (UV) yang berlebihan. Meski begitu, perlu diketahui bahwa sinar UV tidak selalu menyebabkan kanker kulit melanoma karena kondisi ini juga dapat muncul di area kulit yang tidak terpapar sinar matahari.",
+    "Penyebabnya": "Kanker kulit melanoma terjadi ketika sel-sel yang memproduksi melanin (melanosit) mengalami mutasi (perubahan). Akibatnya, sel-sel tersebut tumbuh tidak normal dan berkembang menjadi kanker. Belum diketahui apa yang menyebabkan melanosit bermutasi dan berkembang menjadi kanker. Hanya saja, para ahli meyakini kanker kulit melanoma terjadi akibat paparan sinar ultraviolet (UV) yang berlebihan. Meski begitu, perlu diketahui bahwa sinar UV tidak selalu menyebabkan kanker kulit melanoma karena kondisi ini juga dapat muncul di area kulit yang tidak terpapar sinar matahari.",
     "Jenis": [
         "Kanker kulit melanoma terbagi dalam empat jenis, yaitu:",
         "1. Superficial spreading melanoma",
@@ -13,7 +17,18 @@
         "4. Acral lentiginous melanoma",
         "Acral lentiginous melanoma adalah jenis melanoma yang jarang terjadi dan biasanya tumbuh di telapak tangan, telapak kaki, atau di sekitar kuku. Melanoma ini sering kali muncul pada orang berkulit gelap."
     ],
-    "Faktor Risiko": [
+    "Jenisnya": [
+        "Kanker kulit melanoma terbagi dalam empat jenis, yaitu:",
+        "1. Superficial spreading melanoma",
+        "Superficial spreading melanoma umumnya tumbuh melebar pada permukaan kulit, tetapi lama-kelamaan bisa berkembang ke bagian dalam kulit. Melanoma ini lebih sering muncul di punggung bagian atas dan kaki.",
+        "2. Lentigo maligna melanoma",
+        "Lentigo maligna melanoma biasanya muncul di area tubuh yang sering terpapar sinar matahari, antara lain wajah dan tangan, dengan pola pertumbuhan seperti superficial spreading melanoma. Melanoma jenis ini sering menyerang orang lanjut usia.",
+        "3. Nodular melanoma",
+        "Nodular melanoma merupakan jenis melanoma yang paling agresif dan bisa tumbuh dengan cepat ke bawah kulit jika tidak segera diangkat. Melanoma jenis ini biasanya berupa benjolan berwarna biru-hitam atau kemerahan yang tumbuh di badan, tungkai, atau kulit kepala.",
+        "4. Acral lentiginous melanoma",
+        "Acral lentiginous melanoma adalah jenis melanoma yang jarang terjadi dan biasanya tumbuh di telapak tangan, telapak kaki, atau di sekitar kuku. Melanoma ini sering kali muncul pada orang berkulit gelap."
+    ],
+    "Risiko": [
         "Faktor yang dapat meningkatkan risiko terkena kanker kulit melanoma antara lain:",
         "Berkulit terang",
         "Berusia lebih dari 50 tahun dan berjenis kelamin laki-laki",
@@ -23,7 +38,7 @@
         "Memiliki riwayat penyakit kulit",
         "Memiliki keluarga yang juga menderita kanker kulit melanoma"
     ],
-    "Risiko": [
+    "Resiko": [
         "Faktor yang dapat meningkatkan risiko terkena kanker kulit melanoma antara lain:",
         "Berkulit terang",
         "Berusia lebih dari 50 tahun dan berjenis kelamin laki-laki",
@@ -43,7 +58,57 @@
         "Memiliki riwayat penyakit kulit",
         "Memiliki keluarga yang juga menderita kanker kulit melanoma"
     ],
+    "Resikonya?": [
+        "Faktor yang dapat meningkatkan risiko terkena kanker kulit melanoma antara lain:",
+        "Berkulit terang",
+        "Berusia lebih dari 50 tahun dan berjenis kelamin laki-laki",
+        "Terpapar sinar matahari berlebih",
+        "Memiliki banyak tahi lalat maupun freckles",
+        "Memiliki daya tubuh lemah",
+        "Memiliki riwayat penyakit kulit",
+        "Memiliki keluarga yang juga menderita kanker kulit melanoma"
+    ],
     "Gejala": [
+        "Kanker kulit melanoma umumnya ditandai dengan munculnya tahi lalat baru yang memiliki ciri tidak normal. Kanker ini juga dapat ditandai dengan perubahan tidak normal pada tahi lalat yang lama.",
+        "Tahi lalat yang normal umumnya berbentuk bulat atau oval, berdiameter kurang dari 6 milimeter, dan hanya memiliki satu warna. Sementara itu, melanoma biasanya memiliki ciri-ciri yang disingkat ABCDE, seperti dijelaskan berikut ini:",
+        "A (asymmetrical) atau asimetris",
+        "Bentuk melanoma tidak beraturan dan tidak bisa sama rata jika dibagi dua.",
+        "B (border) atau pinggiran",
+        "Melanoma memiliki pinggiran yang kasar dan tidak rata.",
+        "C (color) atau warna yang tidak normal",
+        "Melanoma biasanya memiliki lebih dari satu warna, seperti hitam, putih cokelat, merah abu-abu atau biru.",
+        "D (diameter) atau garis tengah",
+        "Melanoma memiliki diameter lebih dari 6 milimeter atau lebih besar dari tahi lalat.",
+        "E (evolving) atau perubahan",
+        "Melanoma bisa berasal dari tahi lalat lama yang berubah bentuk dan ukuran setelah beberapa waktu, atau menjadi gatal dan mudah berdarah.",
+        "Melanoma umumnya muncul di area kulit yang sering terpapar sinar matahari, seperti wajah, tangan, punggung dan kaki. Meski begitu, melanoma juga dapat timbul di area yang jarang terkena sinar matahari, misalnya:",
+        "Mata",
+        "Bagian bawah kuku",
+        "Telapak tangan atau kaki",
+        "Vulva (area kemaluan wanita)",
+        "Selaput lendir di mulut, hidung, kerongkongan, saluran kemih, vagina dan anus"
+    ],
+    "Gejala Melanoma": [
+        "Kanker kulit melanoma umumnya ditandai dengan munculnya tahi lalat baru yang memiliki ciri tidak normal. Kanker ini juga dapat ditandai dengan perubahan tidak normal pada tahi lalat yang lama.",
+        "Tahi lalat yang normal umumnya berbentuk bulat atau oval, berdiameter kurang dari 6 milimeter, dan hanya memiliki satu warna. Sementara itu, melanoma biasanya memiliki ciri-ciri yang disingkat ABCDE, seperti dijelaskan berikut ini:",
+        "A (asymmetrical) atau asimetris",
+        "Bentuk melanoma tidak beraturan dan tidak bisa sama rata jika dibagi dua.",
+        "B (border) atau pinggiran",
+        "Melanoma memiliki pinggiran yang kasar dan tidak rata.",
+        "C (color) atau warna yang tidak normal",
+        "Melanoma biasanya memiliki lebih dari satu warna, seperti hitam, putih cokelat, merah abu-abu atau biru.",
+        "D (diameter) atau garis tengah",
+        "Melanoma memiliki diameter lebih dari 6 milimeter atau lebih besar dari tahi lalat.",
+        "E (evolving) atau perubahan",
+        "Melanoma bisa berasal dari tahi lalat lama yang berubah bentuk dan ukuran setelah beberapa waktu, atau menjadi gatal dan mudah berdarah.",
+        "Melanoma umumnya muncul di area kulit yang sering terpapar sinar matahari, seperti wajah, tangan, punggung dan kaki. Meski begitu, melanoma juga dapat timbul di area yang jarang terkena sinar matahari, misalnya:",
+        "Mata",
+        "Bagian bawah kuku",
+        "Telapak tangan atau kaki",
+        "Vulva (area kemaluan wanita)",
+        "Selaput lendir di mulut, hidung, kerongkongan, saluran kemih, vagina dan anus"
+    ],
+    "Gejala Kanker Melanoma": [
         "Kanker kulit melanoma umumnya ditandai dengan munculnya tahi lalat baru yang memiliki ciri tidak normal. Kanker ini juga dapat ditandai dengan perubahan tidak normal pada tahi lalat yang lama.",
         "Tahi lalat yang normal umumnya berbentuk bulat atau oval, berdiameter kurang dari 6 milimeter, dan hanya memiliki satu warna. Sementara itu, melanoma biasanya memiliki ciri-ciri yang disingkat ABCDE, seperti dijelaskan berikut ini:",
         "A (asymmetrical) atau asimetris",

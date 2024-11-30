@@ -28,11 +28,16 @@ def chatbot_response():
     user_message = request.json.get("message", "").lower()
     response = "Maaf, saya tidak menemukan jawaban untuk pertanyaan Anda."
 
-    # Check for matching keywords in chatbot_data
-    for key, value in chatbot_data.items():
-        if key.lower() in user_message:
-            response = value if isinstance(value, str) else " ".join(value)
-            break
+    # Pisahkan pesan pengguna menjadi daftar kata
+    words = user_message.split()
+
+    # Cek setiap kata dalam urutan hingga menemukan kecocokan
+    for word in words:
+        for key, value in chatbot_data.items():
+            if key.lower() == word:
+                response = value if isinstance(value, str) else " ".join(value)
+                return jsonify({"response": response})  # Kembalikan respons segera setelah ditemukan
+
     return jsonify({"response": response})
 
 @app.route("/detection")

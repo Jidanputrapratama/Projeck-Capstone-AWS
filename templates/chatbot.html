@@ -477,9 +477,17 @@
             dislikeIcon.addEventListener("click", () => {
               alert("You disliked the message!");
             });
+            const audioIcon = document.createElement("i");
+            audioIcon.classList.add("fas", "fa-volume-up", "icon", "audio-icon", "mr-2");
+            audioIcon.addEventListener("click", () => {
+              const utterance = new SpeechSynthesisUtterance(botMessageElement.textContent);
+              utterance.lang = "id-ID"; // Atur ke bahasa Indonesia
+              speechSynthesis.speak(utterance);
+            });
             iconContainer.appendChild(copyIcon);
             iconContainer.appendChild(likeIcon);
             iconContainer.appendChild(dislikeIcon);
+            iconContainer.appendChild(audioIcon);
 
             botMessageElement.appendChild(iconContainer);
 
