@@ -347,16 +347,16 @@
     <nav class="navbar" id="navbar">
       <div class="navbar-container">
         <div class="logo">
-          <a href="#" class="logo-link">
+          <a href="{{ url_for('index') }}" class="logo-link">
             <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" height="50" />
           </a>
         </div>
         <ul class="navbar-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="detection-1.html">Detection</a></li>
-          <li><a href="chatbot.html" class="active">Chatbot</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="{{ url_for('detection') }}">Detection</a></li>
+          <li><a href="{{ url_for('chatbot') }}" class="active">Chatbot</a></li>
+          <li><a href="{{ url_for('about') }}">About us</a></li>
+          <li><a href="{{ url_for('contact') }}">Contact</a></li>
           <li>
             <div class="user-image">
               <a href="/">
@@ -425,15 +425,18 @@
           chatboxBody.appendChild(botMessageElement);
           chatboxBody.scrollTop = chatboxBody.scrollHeight;
 
-          // dummy untuk bot
-          setTimeout(() => {
-            if (userMessage.toLowerCase().includes("kanker melanoma")) {
-              botMessageElement.textContent =
-                "Kanker melanoma adalah jenis kanker kulit yang berasal dari melanosit, sel penghasil pigmen melanin yang memberi warna pada kulit. Melanoma sering muncul sebagai tahi lalat baru atau perubahan pada tahi lalat yang sudah ada, seperti bentuk tidak simetris, tepi tidak rata, warna yang tidak merata, diameter lebih dari 6 mm, atau perubahan lainnya. Penyakit ini dianggap serius karena dapat menyebar ke organ lain jika tidak segera ditangani. Faktor risiko melanoma meliputi paparan sinar UV, kulit cerah, riwayat keluarga, serta banyaknya tahi lalat. Deteksi dini melalui pemeriksaan rutin sangat penting untuk meningkatkan peluang pengobatan yang efektif.";
-            } else {
-              botMessageElement.textContent =
-                "This is a response from the bot!";
-            }
+          // Send user message to server
+          fetch("/get", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ message: userMessage }),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              // Update bot's response
+              botMessageElement.textContent = data.response;
 
             const iconContainer = document.createElement("div");
             iconContainer.classList.add("bot-icons");

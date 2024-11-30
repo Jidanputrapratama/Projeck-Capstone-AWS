@@ -336,20 +336,20 @@
       <div class="navbar-container">
         <div class="logo">
           <a href="#" class="logo-link">
-            <img src="assets/image/logo.png" alt="Logo" height="50" />
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" height="50" />
           </a>
         </div>
         <ul class="navbar-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="detection-1.html">Detection</a></li>
-          <li><a href="chatbot.html">Chatbot</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="{{ url_for('detection') }}">Detection</a></li>
+          <li><a href="{{ url_for('chatbot') }}">Chatbot</a></li>
+          <li><a href="{{ url_for('about') }}">About us</a></li>
+          <li><a href="{{ url_for('contact') }}" class="active">Contact</a></li>
           <li>
             <div class="user-image">
               <a href="/">
                 <img
-                  src="assets/image/user.png"
+                  src="{{ url_for('static', filename='images/user.png') }}"
                   alt="User Icon"
                   class="rounded-full"
                   width="40"
@@ -451,7 +451,7 @@
         <hr />
         <div class="footer-bottom text-center">
           <div class="footer-logo text-center mb-3">
-            <img src="assets/image/logo.png" alt="Logo" height="50" />
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" height="50" />
           </div>
           <p>&copy; 2024 Melanoma Scan. All rights reserved.</p>
         </div>

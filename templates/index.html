@@ -404,16 +404,16 @@
     <nav class="navbar">
         <div class="navbar-container">
             <div class="logo">
-                <a href="#" class="logo-link">
+                <a href="{{ url_for('index') }}" class="logo-link">
                     <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" height="50" >
                 </a>
             </div>
             <ul class="navbar-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="detection-1.html">Detection</a></li>
+                <li><a href="{{ url_for('index') }}" class="active">Home</a></li>
+                <li><a href="{{ url_for('detection') }}">Detection</a></li>
                 <li><a href="{{ url_for('chatbot') }}" >Chatbot</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="{{ url_for('about') }}">About us</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
                 <li>
                     <div class="user-image">
                         <a href="/">
