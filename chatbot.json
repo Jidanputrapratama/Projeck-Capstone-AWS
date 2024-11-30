@@ -88,27 +88,7 @@
         "Vulva (area kemaluan wanita)",
         "Selaput lendir di mulut, hidung, kerongkongan, saluran kemih, vagina dan anus"
     ],
-    "Gejala Melanoma": [
-        "Kanker kulit melanoma umumnya ditandai dengan munculnya tahi lalat baru yang memiliki ciri tidak normal. Kanker ini juga dapat ditandai dengan perubahan tidak normal pada tahi lalat yang lama.",
-        "Tahi lalat yang normal umumnya berbentuk bulat atau oval, berdiameter kurang dari 6 milimeter, dan hanya memiliki satu warna. Sementara itu, melanoma biasanya memiliki ciri-ciri yang disingkat ABCDE, seperti dijelaskan berikut ini:",
-        "A (asymmetrical) atau asimetris",
-        "Bentuk melanoma tidak beraturan dan tidak bisa sama rata jika dibagi dua.",
-        "B (border) atau pinggiran",
-        "Melanoma memiliki pinggiran yang kasar dan tidak rata.",
-        "C (color) atau warna yang tidak normal",
-        "Melanoma biasanya memiliki lebih dari satu warna, seperti hitam, putih cokelat, merah abu-abu atau biru.",
-        "D (diameter) atau garis tengah",
-        "Melanoma memiliki diameter lebih dari 6 milimeter atau lebih besar dari tahi lalat.",
-        "E (evolving) atau perubahan",
-        "Melanoma bisa berasal dari tahi lalat lama yang berubah bentuk dan ukuran setelah beberapa waktu, atau menjadi gatal dan mudah berdarah.",
-        "Melanoma umumnya muncul di area kulit yang sering terpapar sinar matahari, seperti wajah, tangan, punggung dan kaki. Meski begitu, melanoma juga dapat timbul di area yang jarang terkena sinar matahari, misalnya:",
-        "Mata",
-        "Bagian bawah kuku",
-        "Telapak tangan atau kaki",
-        "Vulva (area kemaluan wanita)",
-        "Selaput lendir di mulut, hidung, kerongkongan, saluran kemih, vagina dan anus"
-    ],
-    "Gejala Kanker Melanoma": [
+    "Gejalanya": [
         "Kanker kulit melanoma umumnya ditandai dengan munculnya tahi lalat baru yang memiliki ciri tidak normal. Kanker ini juga dapat ditandai dengan perubahan tidak normal pada tahi lalat yang lama.",
         "Tahi lalat yang normal umumnya berbentuk bulat atau oval, berdiameter kurang dari 6 milimeter, dan hanya memiliki satu warna. Sementara itu, melanoma biasanya memiliki ciri-ciri yang disingkat ABCDE, seperti dijelaskan berikut ini:",
         "A (asymmetrical) atau asimetris",
@@ -131,6 +111,9 @@
     "Kapan harus ke dokter": [
         "Lakukan pemeriksaan ke dokter jika Anda menduga ada perubahan pada tahi lalat lama, terutama jika tahi lalat jadi berdarah atau terasa gatal. Periksakan juga diri Anda ke dokter jika muncul tahi lalat baru dengan bentuk yang tidak normal, sesuai dengan ciri-ciri yang telah disebutkan di atas."
     ],
+    "Mengatasi": [
+        "Lakukan pemeriksaan ke dokter jika Anda menduga ada perubahan pada tahi lalat lama, terutama jika tahi lalat jadi berdarah atau terasa gatal. Periksakan juga diri Anda ke dokter jika muncul tahi lalat baru dengan bentuk yang tidak normal, sesuai dengan ciri-ciri yang telah disebutkan di atas."
+    ],
     "Diagnosis Kanker Kulit Melanoma": [
         "Untuk mendiagnosis kanker kulit melanoma, dokter akan menanyakan beberapa hal berikut:",
         "Gejala yang dialami pasien",
@@ -142,7 +125,7 @@
         "Biopsi nodus limfa sentinel, untuk mengetahui apakah kanker kulit melanoma sudah menyebar ke kelenjar getah bening terdekat. Pemeriksaan ini dilakukan dengan bantuan cairan kontras.",
         "Pemindaian dengan USG, foto Rontgen, CT scan, PET scan, atau MRI. Tujuan pemeriksaan ini adalah untuk memeriksa tanda-tanda penyebaran kanker ke bawah kulit atau bagian tubuh lain."
     ],
-    "Stadium Kanker Kulit Melanoma": [
+    "Stadium": [
         "Stadium kanker kulit melanoma digunakan untuk menjelaskan seberapa jauh kanker menyebar dan untuk menentukan metode pengobatan yang tepat. Berikut ini adalah stadium kanker kulit melanoma:",
         "Stadium 0 (in situ)",
         "Kanker masih berada di permukaan kulit dan belum menyebar ke area tubuh lain.",
@@ -155,7 +138,7 @@
         "Stadium 4",
         "Melanoma sudah menyebar ke organ tubuh lain, seperti otak, paru-paru, tulang, dan area lain di kulit."
     ],
-    "Pengobatan Kanker Kulit Melanoma": [
+    "Pengobatan": [
         "Pengobatan kanker kulit melanoma tergantung pada jenis dan stadium kanker serta kondisi pasien. Berikut ini adalah penanganan melanoma berdasarkan stadium yang diderita pasien:",
         "Stadium 0",
         "Dokter akan mengangkat sel kanker di permukaan kulit, kemudian memeriksa apakah sel kanker menyebar ke jaringan di sekitarnya. Jika tidak, operasi lanjutan tidak diperlukan.",
@@ -166,7 +149,18 @@
         "Stadium 4",
         "Pada tahap ini, kanker melanoma tidak bisa ditangani hanya dengan operasi. Tindakan yang dapat dilakukan untuk mengatasi kanker melanoma stadium 4 antara lain imunoterapi, terapi target, atau kombinasi keduanya. Meski jarang, dokter mungkin juga merekomendasikan kemoterapi maupun terapi radiasi."
     ],
-    "Komplikasi Kanker Kulit Melanoma": [
+    "Penanganan": [
+        "Pengobatan kanker kulit melanoma tergantung pada jenis dan stadium kanker serta kondisi pasien. Berikut ini adalah penanganan melanoma berdasarkan stadium yang diderita pasien:",
+        "Stadium 0",
+        "Dokter akan mengangkat sel kanker di permukaan kulit, kemudian memeriksa apakah sel kanker menyebar ke jaringan di sekitarnya. Jika tidak, operasi lanjutan tidak diperlukan.",
+        "Stadium 1 dan 2",
+        "Penanganan kanker kulit melanoma stadium 1 dan 2 biasanya dilakukan dengan mengangkat sel kanker dan jaringan di sekitarnya. Setelahnya, dokter mungkin akan memeriksa kelenjar getah bening atau limfa pasien.",
+        "Stadium 3",
+        "Operasi pengangkatan sel kanker akan dilakukan untuk mengatasi melanoma yang mulai menyebar. Setelah itu, penanganan pascaoperasi diperlukan untuk mencegah kanker muncul kembali.",
+        "Stadium 4",
+        "Pada tahap ini, kanker melanoma tidak bisa ditangani hanya dengan operasi. Tindakan yang dapat dilakukan untuk mengatasi kanker melanoma stadium 4 antara lain imunoterapi, terapi target, atau kombinasi keduanya. Meski jarang, dokter mungkin juga merekomendasikan kemoterapi maupun terapi radiasi."
+    ],
+    "Komplikasi": [
         "Kanker kulit melanoma dapat menyebabkan komplikasi serius berupa:",
         "Infeksi sekunder pada luka yang dapat menyebabkan selulitis dan sepsis",
         "Penyebaran melanoma ke tulang, yang dapat ditandai dengan tulang rapuh hingga patah tulang",
@@ -178,7 +172,7 @@
         "Kerusakan otot dan saraf, baik akibat penyebaran melanoma maupun akibat bedah pengangkatan melanoma",
         "Kemunculan kembali melanoma, baik di bagian tubuh yang sama maupun di area yang berbeda"
     ],
-    "Pencegahan Kanker Kulit Melanoma": [
+    "Pencegahan": [
         "Cara terbaik untuk mencegah kanker kulit melanoma adalah dengan menghindari paparan sinar UV berlebih. Hal ini penting, terutama bagi orang dengan riwayat melanoma atau kanker kulit lain, guna membantu mencegah kemunculan kembali kanker kulit melanoma yang sudah diobati.",
         "Berikut adalah cara-cara untuk mencegah paparan sinar UV berlebihan:",
         "Menghindari paparan sinar matahari saat sedang panas-panasnya",
