@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +23,7 @@
         }
 
         .navbar {
-            background-color: #75DDD0; 
+            background-color: #75DDD0;
             padding: 16px 24px;
             display: flex;
             justify-content: space-between;
@@ -35,7 +36,7 @@
         }
 
         .navbar-expanded {
-            padding: 30px 60px; 
+            padding: 30px 60px;
         }
 
         .navbar-container {
@@ -96,7 +97,7 @@
 
         .main-box {
             background-color: #B2F5EA;
-            padding: 32px ;
+            padding: 32px;
             border-radius: 12px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
             display: flex;
@@ -183,14 +184,14 @@
             margin-bottom: 16px;
         }
 
-        .news-section h3{
+        .news-section h3 {
             font-size: 24px;
             color: #2C7A7B;
             margin-bottom: 16px;
 
         }
 
-        .news-section p{
+        .news-section p {
             font-size: 16px;
             color: #4A5568;
             margin-bottom: 16px;
@@ -253,14 +254,14 @@
 
         .navbar-links {
             display: flex;
-            flex-direction: row; 
+            flex-direction: row;
             align-items: center;
             text-align: center;
         }
 
         .navbar-links.active {
             display: flex;
-            flex-direction: column; 
+            flex-direction: column;
         }
 
         .navbar-toggle.active div:nth-child(1) {
@@ -274,7 +275,7 @@
         .navbar-toggle.active div:nth-child(3) {
             transform: translateY(-7px) rotate(-45deg);
         }
-        
+
         footer {
             background-color: #75DDD0;
             padding: 40px 0;
@@ -282,7 +283,7 @@
             text-align: center;
             font-size: 14px;
         }
-    
+
         .footer-container {
             display: flex;
             justify-content: space-between;
@@ -291,38 +292,38 @@
             margin: 0 auto;
             padding: 0 20px;
         }
-    
+
         .footer-logo img {
             height: 50px;
         }
-    
+
         .footer-links ul {
             list-style: none;
             display: flex;
             gap: 30px;
         }
-    
+
         .footer-links li a {
             color: #fff;
             text-decoration: none;
             font-weight: 500;
         }
-    
+
         .footer-links li a:hover {
             text-decoration: underline;
         }
-    
+
         .footer-social a {
             color: #fff;
             margin: 0 10px;
             font-size: 20px;
             transition: color 0.3s;
         }
-    
+
         .footer-social a:hover {
             color: #2C7A7B;
         }
-    
+
         .footer-bottom {
             margin-top: 30px;
             font-size: 12px;
@@ -343,11 +344,12 @@
                 padding: 16px 0;
                 z-index: 10;
             }
+
             .navbar-links.active {
                 display: flex;
             }
 
-            .user-image img{
+            .user-image img {
                 display: none;
             }
 
@@ -400,18 +402,19 @@
         }
     </style>
 </head>
+
 <body>
     <nav class="navbar">
         <div class="navbar-container">
             <div class="logo">
                 <a href="{{ url_for('index') }}" class="logo-link">
-                    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" height="50" >
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" height="50">
                 </a>
             </div>
             <ul class="navbar-links">
                 <li><a href="{{ url_for('index') }}" class="active">Home</a></li>
                 <li><a href="{{ url_for('detection') }}">Detection</a></li>
-                <li><a href="{{ url_for('chatbot') }}" >Chatbot</a></li>
+                <li><a href="{{ url_for('chatbot') }}">Chatbot</a></li>
                 <li><a href="{{ url_for('about') }}">About us</a></li>
                 <li><a href="{{ url_for('contact') }}">Contact</a></li>
                 <li>
@@ -419,7 +422,8 @@
                         <a href="/">
                             <img src="{{ url_for('static', filename='images/user.png') }}" alt="User Icon" width="40">
                         </a>
-                    </div></li>
+                    </div>
+                </li>
             </ul>
             <div class="navbar-toggle">
                 <div></div>
@@ -429,15 +433,15 @@
         </div>
     </nav>
 
-    <!-- Main Section -->   
+    <!-- Main Section -->
     <section class="main-container">
         <div class="main-box">
             <div class="text-content">
                 <h2>Halo, Selamat Datang</h2>
                 <h1>Jidan</h1>
-                <p> Tahukah anda bahwa Kanker melanoma adalah jenis kanker kulit yang agresif 
-                    dan berasal dari sel pigmen kulit, melanosit. Deteksi dini sangat penting, 
-                    jadi periksalah kulit Anda secara rutin dan waspadai perubahan pada tahi lalat 
+                <p> Tahukah anda bahwa Kanker melanoma adalah jenis kanker kulit yang agresif
+                    dan berasal dari sel pigmen kulit, melanosit. Deteksi dini sangat penting,
+                    jadi periksalah kulit Anda secara rutin dan waspadai perubahan pada tahi lalat
                     atau bintik-bintik baru—kesadaran bisa menyelamatkan nyawa.</p>
             </div>
             <div class="shield-image">
@@ -456,17 +460,12 @@
                 <p>Gunakan alat canggih untuk mendeteksi tanda-tanda kanker kulit secara dini.</p>
             </div>
             <div class="card">
-                <i class="fas fa-laptop-medical"></i>
-                <h3>Konsultasi</h3>
-                <p>Berbicara langsung dengan ahli melalui panggilan video.</p>
-            </div>
-            <div class="card">
                 <a href="{{ url_for('chatbot') }}" style="text-decoration: none; color: inherit;">
                     <i class="fas fa-comments"></i>
                     <h3>Chatbot Kesehatan</h3>
                     <p>Gunakan chatbot kami untuk mendapatkan informasi medis dengan cepat dan mudah.</p>
                 </a>
-            </div>            
+            </div>
         </div>
     </section>
 
@@ -476,7 +475,8 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-md-4 mb-3">
-                    <img src="https://nexgoal.com/wp-content/uploads/2021/08/Top-Trends-Medical-Device-1920x1000-1-1536x800.jpg" alt="News Image" class="img-fluid rounded">
+                    <img src="https://nexgoal.com/wp-content/uploads/2021/08/Top-Trends-Medical-Device-1920x1000-1-1536x800.jpg"
+                        alt="News Image" class="img-fluid rounded">
                 </div>
                 <div class="col-md-8">
                     <h3>Latest News</h3>
@@ -486,7 +486,8 @@
             <hr>
             <div class="row">
                 <div class="col-md-4 mb-3">
-                    <img src="https://teguar.com/wp-content/w3-webp/uploads/2023/07/iStock-1396801868-1024x683.jpgw3.webp" alt="News Image" class="img-fluid rounded">
+                    <img src="https://teguar.com/wp-content/w3-webp/uploads/2023/07/iStock-1396801868-1024x683.jpgw3.webp"
+                        alt="News Image" class="img-fluid rounded">
                 </div>
                 <div class="col-md-8">
                     <h3>Latest News</h3>
@@ -495,43 +496,45 @@
             </div>
         </div>
     </section>
-    
+
 
     <footer>
         <div class="container">
-        <div class="footer-container row mx-0">
-            <div class="footer-address col-9">
-                <ul class="list-unstyled text-center text-md-left">
-                    <li><i class="fas fa-map-marker-alt mr-2 mb-2"></i>Pasar Minggu, Jakarta Selatan</li>
-                    <li><i class="fas fa-phone mr-2 mb-2"></i>+62 857 1656 9378</li>
-                    <li><i class="fas fa-envelope mr-2 mb-2"></i>melanomascan@gmail.com</li>
-                </ul>
+            <div class="footer-container row mx-0">
+                <div class="footer-address col-9">
+                    <ul class="list-unstyled text-center text-md-left">
+                        <li><i class="fas fa-map-marker-alt mr-2 mb-2"></i>Pasar Minggu, Jakarta Selatan</li>
+                        <li><i class="fas fa-phone mr-2 mb-2"></i>+62 857 1656 9378</li>
+                        <li><i class="fas fa-envelope mr-2 mb-2"></i>melanomascan@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer-social col-3 text-center">
+                    <p><i class="fab fa-instagram fa-2x"></i><a href="https://instagram.com/cypher_mind" target="_blank"
+                            class="text-white">@cypher_mind</a></p>
+                </div>
             </div>
-            <div class="footer-social col-3 text-center">
-                <p><i class="fab fa-instagram fa-2x"></i><a href="https://instagram.com/cypher_mind" target="_blank" class="text-white">@cypher_mind</a></p>
+            <hr>
+            <div class="footer-bottom text-center">
+                <div class="footer-logo text-center mb-3">
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" height="50">
+                </div>
+                <p>&copy; 2024 Melanoma Scan. All rights reserved.</p>
             </div>
         </div>
-        <hr>
-        <div class="footer-bottom text-center">
-            <div class="footer-logo text-center mb-3">
-                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" height="50">
-            </div>
-            <p>&copy; 2024 Melanoma Scan. All rights reserved.</p>
-        </div></div>
     </footer>
-    
-    
+
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
         const toggle = document.querySelector('.navbar-toggle');
         const navbarLinks = document.querySelector('.navbar-links');
-        
+
         toggle.addEventListener('click', () => {
             navbarLinks.classList.toggle('active');
             toggle.classList.toggle('active');
         });
 
-    
+
         window.addEventListener('scroll', () => {
             if (window.scrollY > 50) {
                 navbar.classList.add('scrolled');
@@ -541,4 +544,5 @@
         });
     </script>
 </body>
+
 </html>
